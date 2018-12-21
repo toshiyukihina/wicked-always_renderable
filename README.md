@@ -24,9 +24,9 @@ Or install it yourself as:
 Just include `Wicked::AlwaysRenderable` and render_wizard!
 
     class SomeWizardController < ApplicationController
-    include Wicked::Wizard
-    include Wicked::AlwaysRenderable
-    ... (snip) ...
+      include Wicked::Wizard
+      include Wicked::AlwaysRenderable
+      ... (snip) ...
     end
 
 ## Contributing
